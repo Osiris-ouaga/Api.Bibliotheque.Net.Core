@@ -1,0 +1,24 @@
+2024-01-09 16:31:02.967 +01:00 [INF] User profile is available. Using 'C:\Users\princ\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-01-09 16:31:07.847 +01:00 [INF] Now listening on: https://localhost:7019
+2024-01-09 16:31:08.034 +01:00 [INF] Now listening on: http://localhost:5019
+2024-01-09 16:31:08.058 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-01-09 16:31:08.072 +01:00 [INF] Hosting environment: Development
+2024-01-09 16:31:08.082 +01:00 [INF] Content root path: C:\Users\princ\source\repos\Api.Bibliotheque.Net.Core\Api.Bibiliotheque.Core.Net\
+2024-01-09 16:31:09.743 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/index.html - -
+2024-01-09 16:31:13.672 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - -
+2024-01-09 16:31:13.830 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/index.html - - - 200 - text/html;charset=utf-8 3975.8562ms
+2024-01-09 16:31:13.879 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7019/_vs/browserLink - -
+2024-01-09 16:31:13.986 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_framework/aspnetcore-browser-refresh.js - - - 200 12384 application/javascript;+charset=utf-8 314.0954ms
+2024-01-09 16:31:14.310 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7019/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 431.0169ms
+2024-01-09 16:31:14.671 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - -
+2024-01-09 16:31:16.310 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7019/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1638.4359ms
+2024-01-09 16:31:23.409 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7019/api/User - -
+2024-01-09 16:31:27.534 +01:00 [INF] Executing endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2024-01-09 16:31:27.692 +01:00 [INF] Route matched with {action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.List`1[Api.Bibiliotheque.Core.Net.Models.UserModel]]] Get(System.Threading.CancellationToken) on controller Api.Bibiliotheque.Core.Net.Controllers.UserController (Api.Bibiliotheque.Core.Net).
+2024-01-09 16:31:29.832 +01:00 [WRN] DEBUT DE LONGUE ATTENTE
+2024-01-09 16:31:42.486 +01:00 [INF] Entity Framework Core 6.0.1 initialized 'BibliothequeContext' using provider 'Microsoft.EntityFrameworkCore.InMemory:6.0.1' with options: StoreName=MyDatabase 
+2024-01-09 16:31:43.739 +01:00 [WRN] FIN DE LONGUE ATTENTE
+2024-01-09 16:31:43.852 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Api.Bibiliotheque.Core.Net.Models.UserModel, Api.Bibiliotheque.Core.Net, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-01-09 16:31:43.901 +01:00 [INF] Executed action Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net) in 16127.4214ms
+2024-01-09 16:31:43.942 +01:00 [INF] Executed endpoint 'Api.Bibiliotheque.Core.Net.Controllers.UserController.Get (Api.Bibiliotheque.Core.Net)'
+2024-01-09 16:31:44.017 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7019/api/User - - - 200 - application/json;+charset=utf-8 20609.2441ms
