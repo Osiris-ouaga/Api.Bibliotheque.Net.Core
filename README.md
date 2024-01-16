@@ -1,1 +1,1 @@
-# .Net core5 Bibliothèque project
+# .Net core6 Bibliothèque project
